@@ -24,6 +24,9 @@ Implements a basic black-box patch attack that generates and applies an adversar
 ### `RobustDPatch_Attack.ipynb`
 Implements the RobustDPatch attack using the **Adversarial Robustness Toolbox (ART)**, producing robust, transformation-resistant adversarial patches.
 
+### `Whitebox_FGSM_Attack.ipynb`
+Implements a white-box FGSM (Fast Gradient Sign Method) adversarial attack on a YOLO object detection model. This notebook generates adversarial images by perturbing original images to reduce object detection confidence and evaluates the model's performance on these attacked images compared to clean images.
+
 ## Requirements for Running the Attacks
 
 To run any of the attack notebooks:
