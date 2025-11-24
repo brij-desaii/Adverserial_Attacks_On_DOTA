@@ -13,7 +13,7 @@ Due to the dataset’s large size, training from scratch on limited compute (e.g
 
 ## Repository Structure
 
-The repository contains three Jupyter notebooks implementing different adversarial attacks:
+The repository contains three folders `Whitebox`, `Blackbox Pixel Attack`  `Patch Attack (Greybox)` which contain a total of three Jupyter notebooks implementing different adversarial attacks:
 
 ### `DE_pixel_attack.ipynb`
 Implements one-pixel and three-pixel black-box adversarial attacks, which modify a very small number of pixels to disrupt object detection.
