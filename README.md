@@ -13,18 +13,18 @@ Due to the dataset’s large size, training from scratch on limited compute (e.g
 
 ## Repository Structure
 
-The repository contains three folders `Whitebox`, `Blackbox Pixel Attack`  `Patch Attack (Greybox)` which contain a total of three Jupyter notebooks implementing different adversarial attacks:
+The repository contains three folders `Whitebox`, `Blackbox Pixel Attack`  `Patch Attack (Greybox)` which contain a total of four Jupyter notebooks implementing different adversarial attacks:
 
-### `DE_pixel_attack.ipynb`
+### `Blackbox Pixel Attack/DE_pixel_attack.ipynb`
 Implements one-pixel and three-pixel black-box adversarial attacks, which modify a very small number of pixels to disrupt object detection.
 
-### `Patch_Attack_Black_Box.ipynb`
+### `Patch Attack (Greybox)/Patch_Attack_Black_Box.ipynb`
 Implements a basic black-box patch attack that generates and applies an adversarial patch to reduce model accuracy.
 
-### `RobustDPatch_Attack.ipynb`
+### `Patch Attack (Greybox)/RobustDPatch_Attack.ipynb`
 Implements the RobustDPatch attack using the **Adversarial Robustness Toolbox (ART)**, producing robust, transformation-resistant adversarial patches.
 
-### `Whitebox_FGSM_Attack.ipynb`
+### `whitebox/Whitebox_FGSM_Attack.ipynb`
 Implements a white-box FGSM (Fast Gradient Sign Method) adversarial attack on a YOLO object detection model. This notebook generates adversarial images by perturbing original images to reduce object detection confidence and evaluates the model's performance on these attacked images compared to clean images.
 
 ## Requirements for Running the Attacks
